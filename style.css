@@ -1,0 +1,100 @@
+/* Reset default styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Flexbox styles for the parent container */
+.threeboxes {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  justify-content: space-around; /* Adjust as needed */
+  gap: 20px; /* Adds space between the cards */
+}
+
+/* Styles for each container */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+/* Styles for images */
+img {
+  height: 300px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+/* Styles for the main content */
+.main {
+  height: 600px;
+  width: 400px;
+  border: 3px solid rgb(6, 166, 215);
+  border-radius: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 20px black;
+}
+
+/* Styles for headings */
+h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/* Styles for paragraphs */
+p {
+  font-family: sans-serif;
+}
+
+/* Styles for text sections */
+.textmain {
+  padding: 20px;
+}
+
+/* Styles for text paragraphs */
+.textp {
+  padding-top: 20px;
+}
+
+/* Styles for short images */
+.imghshort {
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+/* Styles for secondary content */
+.twothings {
+  display: flex;
+  padding-top: 60px;
+  gap: 1rem;
+}
+
+/* Styles for text headings */
+.texth1 {
+  font-size: 15px;
+}
+
+/* Styles for text paragraphs */
+.textpq {
+  font-size: 8px;
+}
+
+/* Styles for additional spacing */
+.textshort {
+  padding-top: 5px;
+}
+
+/* Styles for hover effect */
+.forhover:hover {
+  transform: scale(1.1);
+
+  box-shadow: 0 0 10px black;
+}
+.threeboxes {
+  display: flex;
+  flex-direction: row;
+}
